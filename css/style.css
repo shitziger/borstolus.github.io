@@ -9,17 +9,25 @@ header {
     position: sticky;
     top: 0;
     margin: 0px;
+    
     padding: 0;
     background-color: #004c5c;
     color: darkgoldenrod;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
 }
 a {
     color: darkgoldenrod;
     text-decoration: none;
+}
+a:hover {
+    color: goldenrod;
+}
+.logo {
+    cursor: pointer;
+    margin-right: auto;
 }
 .navlink {
     list-style: none;
@@ -29,8 +37,9 @@ a {
     padding: 0 20px;
 }
 .navlink li a {
-    transition: all 0.3s ease 0s;
+    transition: all 0.1s ease 0s;
 }
+
 .centered {
     display: flex;
     justify-content: center;
