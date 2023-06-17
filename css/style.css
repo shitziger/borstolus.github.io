@@ -36,7 +36,7 @@ nav {
 
 }
 footer ul, nav ul {
-    list-style: none;
+    list-style-type: none;
     padding-inline-start: 0;
 }
 footer ul li a, nav ul li a {
