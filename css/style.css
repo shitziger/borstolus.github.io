@@ -28,11 +28,18 @@ header {
         height: 600px;
     }
 }
-nav ul {
-    list-style: none;
+nav {
+    position: sticky;
+    top: 0;
+    /*backdrop-filter: blur(10px) brightness(40%); */
+    background-color: #232323;
 
 }
-nav ul li a {
+footer ul, nav ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+footer ul li a, nav ul li a {
     font-weight: bold;
     padding: 20px;
 }
