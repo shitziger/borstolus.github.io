@@ -58,11 +58,11 @@ a:hover {
     height: 100%;
     object-fit: cover;
 }
-@media screen and (min-width: 800px) {
+/*@media screen and (min-width: 800px) {
     #teaser {
         height: 600px;
     }
-}
+} */
 
 footer ul, nav ul {
     list-style-type: none;
