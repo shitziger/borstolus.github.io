@@ -10,9 +10,9 @@
     left: 15em;
     width: 10em;
     height: 10em;
-    background-color: yellow;
+    background-color: goldenrod;
     border-radius: 50%;
-    box-shadow: 0 0 3em white;
+    box-shadow: 0 0 3em yellow;
 }
 .earth, .moon {
     position: absolute;
@@ -46,7 +46,8 @@
     right: 2.8em;
     width: 3em;
     height: 3em;
-    background-color: aqua;
+    background-color: #004c5c;
+    box-shadow: 0 0 1em aqua;
 }
 .moon::before {
     top: 0.8em;
@@ -54,6 +55,7 @@
     width: 1.2em;
     height: 1.2em;
     background-color: silver;
+    box-shadow: 0 0 0.5em white;
 }
 @keyframes orbit {
     to {
