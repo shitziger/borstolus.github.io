@@ -7,8 +7,8 @@
  .flip-card {
     margin: 15px;
     background-color: transparent;
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 300px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
@@ -42,6 +42,9 @@
     background-color: #004c5c;
     color: darkgoldenrod;
   }
+  .flip-card-front h2 {
+    margin-top: 20px;
+  }
   
   /* Style the back side */
   .flip-card-back {
@@ -49,3 +52,10 @@
     color: #003c4c; 
     transform: rotateY(180deg);
   } 
+  .flip-card-back p {
+    text-align: left;
+    margin: 15px;
+  }
+  .flip-card-back ul {
+    text-align: left;
+  }
