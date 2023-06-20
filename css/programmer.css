@@ -1,0 +1,37 @@
+.programmer {
+    background-color: transparent;
+    padding: 1em 0;
+    font-size: 20px;
+    font-family: monospace;
+    border-radius: 0.5em;
+}
+.programmer p {
+    white-space: pre;
+    padding: 0 1em;
+    margin: 0.5em;
+}
+.programmer p:not(:last-child) {
+    animation: step 3s infinite;
+    animation-delay: var(--d);
+}
+.programmer p:nth-child(2) {
+    --d: 0s;
+}
+.programmer p:nth-child(3) {
+    --d: 0.75s;
+}
+.programmer p:nth-child(4) {
+    --d: 1.5s;
+}
+.programmer p:nth-child(1),
+.programmer p:nth-child(5) {
+    --d: 2.25s;
+}
+@keyframes step {
+    0%, 25% {
+        background: #003c4c;
+    }
+    26%, 100% {
+        background: transparent;
+    }
+}

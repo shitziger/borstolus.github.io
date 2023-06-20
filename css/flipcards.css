@@ -6,6 +6,7 @@
     width: 350px;
     height: 280px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    counter-increment: css-counter 1;
   }
   
   /* This container is needed to position the front and back side */
@@ -41,6 +42,9 @@
   .flip-card-front h2 {
         margin-top: 50px;
   }
+  .flip-card-front h2:before {
+    content: counter(css-counter) ". ";
+}
   .flip-card-front p {
     margin-top: 50px;
 }
