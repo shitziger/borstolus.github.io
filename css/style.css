@@ -47,10 +47,6 @@ a:hover {
 }
 #teaser {
     width: 100%;
-    height: 300px;
-}
-#teaserPhysik {
-    width: 100%;
     height: 350px;
 }
 #teaser img {
@@ -120,5 +116,3 @@ section {
     border-radius: 15px; */
     padding-left: 10px;
 }
-
-
