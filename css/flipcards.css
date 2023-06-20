@@ -8,7 +8,7 @@
     margin: 15px;
     background-color: transparent;
     width: 350px;
-    height: 300px;
+    height: 280px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
   
