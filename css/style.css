@@ -92,6 +92,8 @@ section {
     color: goldenrod;
     justify-content: center;
     align-items: center;
+    margin: 15px;
+    width: 150px;
 }
 .kurs img {
     height: 50px;
@@ -116,3 +118,7 @@ section {
     border-radius: 15px; */
     padding-left: 10px;
 }
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+ }
