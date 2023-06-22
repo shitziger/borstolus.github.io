@@ -43,9 +43,9 @@
   .flip-card-front h2 {
         margin-top: 50px;
   }
-  .flip-card-front h2:before,
-  .flip-card-back h2:before {
-    content: counter(css-counter) ". ";
+  .flip-card-front h2:after,
+  .flip-card-back h2:after {
+    content: " " counter(css-counter);
 }
   .flip-card-front p {
     margin-top: 50px;
