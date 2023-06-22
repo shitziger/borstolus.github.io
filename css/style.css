@@ -9,6 +9,7 @@ header {
     position: sticky;
     top: 0;
     margin: 0px;
+    z-index: 5;
     
     padding: 0;
     background-color: #004c5c;
@@ -24,6 +25,7 @@ a {
 }
 a:hover {
     color: goldenrod;
+    text-shadow: 0 0 1em gold;
 }
 .logo {
     cursor: pointer;
@@ -103,6 +105,7 @@ section {
 .kurs:hover,.thema:hover {
     background-color: #005c6c;
     cursor: pointer;
+    box-shadow: #007c8c;
 }
 .thema {
     display: flex;
