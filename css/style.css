@@ -126,6 +126,9 @@ section {
     border-radius: 15px; */
     padding-left: 10px;
 }
+.theorie {
+    padding-left: 10px;
+}
 .card-container {
     display: flex;
     flex-wrap: wrap;
